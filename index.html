@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Jokenpo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="containerPai">
+        <h1>Jokenpô!!</h1>
+        <div class="container">
+            <button onclick="jogar('pedra')">Pedra</button>
+            <button onclick="jogar('papel')">Papel</button>
+            <button onclick="jogar('tesoura')">Tesoura</button>
+        </div>
+        <div class="result" id="resultado">
+        </div>
+        <div class="image-area">
+            <div id="playerChoice" class="image-container"></div>
+            <div id="computerChoice" class="image-container"></div>
+        </div>
+    </div>
+
+
+    <script src="./codigo.js"></script>
+</body>
+
+</html>
